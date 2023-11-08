@@ -196,7 +196,7 @@ object {
     grid-template-rows: auto;
     justify-content: center;
     gap: 10px;
-    margin: 60px auto 0 30px;
+    margin: 60px auto 30px 30px;
     width: 90%;
     background-color: var(--cor3);
   
@@ -214,6 +214,7 @@ object {
     border-radius: 10px;
     max-width: 100px;
     height: auto;
+    
 }
 .produto img:hover {
     transform: scale(1.2);
