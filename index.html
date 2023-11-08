@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <header>
+          <h1>Bolo da Cida</h1>
+          <object data="./imagens/fundo2.svg" type="image/svg+xml">
+            nao abriu
+          </object>
+          <div class="bolo" id="bolo1"><img src="./imagens/bolo5.svg" alt=""></div>
+          <div class="bolo" id="bolo2"><img src="./imagens/bolo3.svg" alt=""></div>
+          <div class="bolo" id="bolo3"><img src="./imagens/bolo7.svg" alt=""></div>
+          <div class="bolo" id="bolo4"><img src="./imagens/bolo6.svg" alt=""></div>
+    </header>
+    <div class="pessoal">
+      <a href="">Login</a>
+      <a href="">Registrar</a>
+    </div>
+    <nav class="nav-bar" id="navBar">
+      <div class="menu-icon" id="menuIcon" onclick="abrir()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Produto</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
+    </nav>
+    <div tabindex="0" class="content1" onfocus="fechar()" id="content1"></div>
+   
+
+    <main class="content">
+      <div class="produto">
+        <img class="cima" src="imagens/bolo-de-baunilha.jpg" alt="">
+        <p>Bolo de Baunilha</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img class="cima" src="imagens/bolo-de-maracuja.jpg" alt="">
+        <p>Bolo de Maracúja</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img class="baixo" src="imagens/bolo-de-prestigio.jpg" alt="">
+        <p>Bolo de Prestígio</p>
+        <button>Comprar</button>
+      </div>
+      <div class="produto">
+        <img class="baixo" src="imagens/bolo-especial.jpg" alt="">
+        <p>Bolo de Especial</p>
+        <button>Comprar</button>
+      </div>
+    </main>
+    
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
